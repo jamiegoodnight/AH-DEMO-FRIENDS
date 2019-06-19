@@ -1,10 +1,10 @@
-## After Hours Authorization Demo
+## After Hours Authorization/Friends Demo
 
-animista.net
-GSAP
-ReactStrap
-https://www.cssmatic.com/box-shadow
-react-loader-spinners
+- animista.net
+- GSAP
+- ReactStrap
+- https://www.cssmatic.com/box-shadow
+- react-loader-spinners
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
