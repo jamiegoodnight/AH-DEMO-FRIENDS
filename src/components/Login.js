@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 import Loader from "react-loader-spinner";
 import { connect } from "react-redux";
 import { Form, Input } from "reactstrap";
@@ -64,11 +63,6 @@ class Login extends React.Component {
       </div>
     );
   }
-  componentDidMount() {
-    if (this.props.token) {
-      this.props.history.push("/");
-    }
-  }
 
   handleChanges = e => {
     e.preventDefault();
@@ -82,8 +76,7 @@ class Login extends React.Component {
   };
 }
 
-const mapStateToProps = ({ token, loggingIn, error }) => ({
-  token,
+const mapStateToProps = ({ loggingIn, error }) => ({
   loggingIn,
   error
 });
