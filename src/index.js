@@ -13,6 +13,8 @@ import App from "./App";
 
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
+// To get our project working, the first thing we need to do is create our private route!
+
 ReactDOM.render(
   <Provider store={store}>
     <Router>
