@@ -1,5 +1,11 @@
 ## After Hours Authorization/Friends Demo
 
+<p>
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-orange.svg?cacheSeconds=2592000" />
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue.svg">
+  <img alt="License" src="https://img.shields.io/github/followers/jamiegoodnight?label=Follow&style=social">
+</p>
+
 - animista.net
 - GSAP
 - ReactStrap
